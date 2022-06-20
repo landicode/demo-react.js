@@ -1,0 +1,47 @@
+
+#item {
+    margin: 50px 0;
+    font-size: 30px;
+}
+
+#main, #btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn {
+    margin: 50px 0;
+    font-size: 30px;
+}
+
+#primary-number,
+#secondary-number,
+#result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    width: 125px;
+    height: 125px;
+    box-sizing: border-box;
+    border: solid 4px;
+}
+
+#operator,
+#equal {
+    font-weight: bold;
+    width: fit-content;
+    font-size: 40px;
+    padding: 30px;
+}
+
+input {
+    border: solid 4px;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+    outline: none;
+    font-size: 40px;
+    font-weight: bold;
+}
